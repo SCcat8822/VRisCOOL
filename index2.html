@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<?php 
+if(isset($_POST['password'])) {
+    if ($_POST['password'] == 'letmein'){
+        echo "Correct";
+        exit;
+
+
+    } else { echo "Incorrect";
+    exit;
+
+    }
+
+
+}
+
+
+?>
+
+<head>
+	<title> THIS IS THE VR THATS REALLY MADE IN JAVASCIPT</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    </head>
+    <body>
+
+        <form action="login.php" method="POST"> 
+            Please enter the password to continue to see logs.
+            <br/>
+            <input type="password" name="password"/>
+            <input type="submit" value="Enter!"/>
+        </form>
+
+
+    	<center>
+    		<a href="index.html"> Home </a> ||| <a href="index2.html"> subs</a>
+    	</center>
+    	<p> this is cool </p>
+    </body>
+    </html>
+ 
+
